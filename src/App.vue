@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from '../node_modules/vue'
+import { ref } from 'vue'
 import CrimeBox from "@/components/crimeBox.vue";
 let data= ref(["Loading...", "Loading...", "Loading...", "Loading...", "Loading...", "Loading..."])
 fetch('https://data.cityofchicago.org/resource/ijzp-q8t2.json?$limit=100')

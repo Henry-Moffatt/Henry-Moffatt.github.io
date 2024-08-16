@@ -11,7 +11,9 @@ lerna-debug.log*
 dist-ssr
 coverage
 *.local
+dist
 
+node_modules
 /cypress/videos/
 /cypress/screenshots/
 

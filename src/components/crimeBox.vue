@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from '../../node_modules/vue'
+import {ref} from 'vue'
 
 const props = defineProps(['data'])
 let finData = ref({id:"Loading ID",case_number:"Loading Case Number",date:"Loading",block:"Loading Block",iucr:"Loading IUCR",primary_type:"Loading Primary Type",description:"Loading Description",location_description:"Loading Location Description",arrest:false,domestic:false,beat:"Loading Beat",district:"Loading District",ward:"Loading Ward",community_area:"Loading Community Area",fbi_code:"Loading FBI Code",year:"Loading Year",updated_on:"Loading Last Update"})
